@@ -1,0 +1,43 @@
+html, body {
+	overflow: hidden;
+ 	padding: 0px;
+    border: 0px;
+    margin: 0px;
+	width:100%;
+	height:100%;
+}
+
+#paintarea {
+ 	padding: 0px;
+    border: 0px;
+    margin: 0px;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#toolbox {
+	position: fixed;
+	padding: 0px;
+	border: 1px;
+	margin: 0px;
+	background-color: red;
+	top: 50%;
+	left: 50%;
+}
+
+#colourpicker {
+	position: absolute;
+ 	padding: 0px;
+    border: 0px;
+    margin: 0px;
+	top: 50%;
+}
+
+#sizepicker {
+	position: absolute;
+ 	padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
